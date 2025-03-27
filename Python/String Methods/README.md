@@ -33,3 +33,16 @@ It returns a Boolean value: True if the string starts with the prefix, and False
 The str.endswith() method in Python mirrors str.startswith() but checks the end of a string instead of the beginning. Here's a comprehensive look:
 str.endswith() determines if a string ends with a specified suffix (substring).
 It returns a Boolean value: True if the string ends with the suffix, and False otherwise.
+
+# Day4
+# str.count() Method
+The str.count() method in Python is a built-in string function that returns the number of non-overlapping occurrences of a substring within a given string. Here's a comprehensive discussion:
+
+# str.replace() Method
+The str.replace() method in Python is used to create a new string where all occurrences of a specified substring (old) are replaced with another substring (new).
+
+
+# str.strip() Method
+The str.strip() method in Python is a powerful tool for cleaning up strings by removing unwanted leading and trailing characters. Here's a breakdown of its functionality:
+By default, strip() removes leading and trailing whitespace characters. This includes spaces, tabs (\t), and newline characters (\n).
+You can provide an optional chars argument to strip(). This argument is a string specifying the set of characters you want to remove from the beginning and end of the original string.
