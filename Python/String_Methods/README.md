@@ -41,8 +41,22 @@ The str.count() method in Python is a built-in string function that returns the 
 # str.replace() Method
 The str.replace() method in Python is used to create a new string where all occurrences of a specified substring (old) are replaced with another substring (new).
 
-
 # str.strip() Method
 The str.strip() method in Python is a powerful tool for cleaning up strings by removing unwanted leading and trailing characters. Here's a breakdown of its functionality:
 By default, strip() removes leading and trailing whitespace characters. This includes spaces, tabs (\t), and newline characters (\n).
 You can provide an optional chars argument to strip(). This argument is a string specifying the set of characters you want to remove from the beginning and end of the original string.
+
+# Day5
+# str.lstrip() Method
+str.lstrip() is a built-in string method in Python that returns a copy of the string with leading characters removed.
+The primary purpose of str.lstrip() is to remove whitespace characters (spaces, tabs, newlines) from the left side (beginning) of a string.
+It can also remove any specified set of characters from the left side.
+
+# str.rstrip() Method
+str.rstrip() is designed to remove trailing characters (characters at the end or right side) from a string.
+Similar to lstrip(), it primarily handles the removal of trailing whitespace (spaces, tabs, newlines) but can also remove any specified set of characters.
+
+# str.split() Method
+str.split() is a fundamental string method in Python used to break a string into a list of substrings.
+The primary purpose of str.split() is to divide a string into smaller parts based on a specified delimiter.
+It's commonly used for parsing strings, processing text data, and extracting information from strings.
