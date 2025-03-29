@@ -60,3 +60,21 @@ Similar to lstrip(), it primarily handles the removal of trailing whitespace (sp
 str.split() is a fundamental string method in Python used to break a string into a list of substrings.
 The primary purpose of str.split() is to divide a string into smaller parts based on a specified delimiter.
 It's commonly used for parsing strings, processing text data, and extracting information from strings.
+
+# Day6 
+# str.join() Method
+The str.join(iterable) method is a powerful tool for concatenating strings within an iterable (like a list, tuple, or set) using a specified string as a separator.
+This is the string that will be inserted between each element of the iterable.
+It can be any string, including an empty string ("").
+
+# str.isalpha()
+The str.isalpha() method is a string method that checks if all characters in a string are alphabetic (letters).
+It returns True if all characters in the string are letters (a-z, A-Z).
+It returns False if the string contains any non-alphabetic characters (numbers, symbols, spaces, etc.).
+It returns False if the string is empty.
+
+# str.isdigit()
+The str.isdigit() method is a string method that checks if all characters in a string are digits (0-9).
+It returns True if all characters in the string are digits.
+It returns False if the string contains any non-digit characters (letters, symbols, spaces, etc.).
+It returns False if the string is empty.
