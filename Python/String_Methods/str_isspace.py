@@ -1,0 +1,6 @@
+print("   \t\n".isspace())  # Output: True (spaces, tabs, and newlines)
+print(" ".isspace())       # Output: True (single space)
+print("\t".isspace())      # Output: True (tab)
+print("\n".isspace())      # Output: True (newline)
+print("  abc  ".isspace())  # Output: False (contains non-whitespace characters)
+print("".isspace())         # Output: False (empty string)
