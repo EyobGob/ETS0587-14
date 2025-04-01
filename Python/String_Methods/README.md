@@ -100,3 +100,17 @@ str.format() replaces placeholders (curly braces {}) within a string with specif
 Placeholders can be either:
 Implicitly numbered (based on the order of arguments).
 Explicitly numbered (using indices).
+
+# Day8
+# f-strings
+F-strings, or formatted string literals, are a powerful and convenient way to embed expressions inside string literals for formatting. They were introduced in Python 3.6 and offer a more readable and concise syntax compared to older string formatting methods like % formatting or .format().
+
+# len() function
+The len() function in Python is a built-in function used to determine the length of an object. It's a versatile tool that can be applied to various data types, primarily sequences and collections.
+The primary purpose of len() is to return the number of items in an object.
+"Items" can refer to characters in a string, elements in a list or tuple, key-value pairs in a dictionary, or items in a set.
+
+# str.encode() Method
+In Python, the str.encode() method is fundamental for converting a string into a sequence of bytes. This is crucial because computers ultimately work with bytes, and when you need to store or transmit text data, it must be encoded into a byte format. 
+The str.encode() method translates a Unicode string into a byte sequence. 
+This is essential for saving text to files, sending text over networks & interacting with systems that require byte data.
