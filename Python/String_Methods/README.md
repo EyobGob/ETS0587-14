@@ -114,3 +114,22 @@ The primary purpose of len() is to return the number of items in an object.
 In Python, the str.encode() method is fundamental for converting a string into a sequence of bytes. This is crucial because computers ultimately work with bytes, and when you need to store or transmit text data, it must be encoded into a byte format. 
 The str.encode() method translates a Unicode string into a byte sequence. 
 This is essential for saving text to files, sending text over networks & interacting with systems that require byte data.
+
+# Day9
+# str.islower() Method
+str.islower() is a built-in string method in Python that checks whether all cased characters within a string are lowercase. 
+Purpose: The primary purpose of str.islower() is to determine if a string is composed entirely of lowercase letters.
+Return Value:
+It returns True if all cased characters in the string are lowercase.
+It returns False if at least one cased character is uppercase or if there are no cased characters.
+Cased Characters: The method only considers characters that have a case (i.e., letters). Numbers, symbols, and whitespace are ignored.   
+Empty Strings: If a string contains no cased characters (e.g., an empty string, or a string containing only numbers and symbols), str.islower() returns False.
+
+# str.isupper() Method
+The str.isupper() method in Python is the counterpart to str.islower(). It's designed to check if all cased characters within a string are uppercase.
+Purpose: The primary purpose of str.isupper() is to determine if a string is composed entirely of uppercase letters.
+Return Value:
+It returns True if all cased characters in the string are uppercase.
+It returns False if at least one cased character is lowercase or if there are no cased characters.
+Cased Characters: Like str.islower(), this method only considers characters that have a case (i.e., letters). Numbers, symbols, and whitespace are ignored.
+Empty Strings: If a string contains no cased characters (e.g., an empty string, or a string containing only numbers and symbols), str.isupper() returns False
