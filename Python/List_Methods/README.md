@@ -31,3 +31,22 @@ Modifies the list in-place: The clear() method directly alters the original list
 No arguments: The clear() method does not take any arguments.
 Result is an empty list: After calling clear() on a list, the list will have a length of 0 and contain no elements.
 No return value (returns None implicitly): The clear() method does not explicitly return any value. In Python, functions that don't have a return statement implicitly return None.
+
+# index()
+The index() method is a built-in list method in Python that allows you to find the index of the first occurrence of a specified value within a list.
+value (required): The value you are searching for within the list.
+start (optional): An integer representing the starting index for the search. The search will begin from this index (inclusive). If omitted, the search starts from the beginning of the list (index 0).
+end (optional): An integer representing the ending index for the search. The search will go up to this index (exclusive). If omitted, the search continues until the end of the list.
+If the value is found within the specified range (or the entire list if start and end are not provided), the index() method returns the index of the first occurrence of that value.
+
+# count()
+The count() method is a built-in list method in Python that allows you to determine the number of times a specific value appears within a list.
+value (required): The value you want to count the occurrences of within the list.
+The count() method returns an integer representing the number of times the specified value appears in the list.
+
+# sort()
+The sort() method is a built-in list method in Python that modifies the list in-place, meaning it directly changes the original list. It arranges the elements of the list in a specific order, either ascending (by default) or descending.
+key (optional): A function to be called on each list element prior to making comparisons. This allows for custom sorting based on a specific attribute or transformation of the elements. The function should take one argument (the list element) and return a key to be used for sorting.
+reverse (optional): A boolean value.
+If True, the list will be sorted in descending order.
+If False (the default), the list will be sorted in ascending order.
