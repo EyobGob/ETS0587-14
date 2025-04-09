@@ -50,3 +50,10 @@ key (optional): A function to be called on each list element prior to making com
 reverse (optional): A boolean value.
 If True, the list will be sorted in descending order.
 If False (the default), the list will be sorted in ascending order.
+
+# reverse()
+The reverse() method is a built-in list method in Python that modifies the list in-place by reversing the order of its elements. It does not return a new list; instead, it directly alters the original list.
+The reverse() method iterates through the list and swaps elements from the beginning and end, moving inwards until the middle of the list is reached.
+
+# copy()
+The copy() method is a built-in list method in Python that allows you to create a shallow copy of an existing list. This means that a new list object is created, but the elements within the new list are references to the same objects that are in the original list.
