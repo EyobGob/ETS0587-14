@@ -13,3 +13,11 @@ For mutable values (like lists, other dictionaries, sets), the new dictionary wi
 # fromkeys()
 The fromkeys() method is a built-in dictionary method in Python that allows you to create a new dictionary with specified keys and an optional common value for all of them.
 The primary purpose of fromkeys() is to efficiently initialize a dictionary where you know the keys in advance, and you want to assign the same initial value to all of them. If you don't provide a value, it defaults to None.
+
+# get() Method
+The get() method is a fundamental and often preferred way to access values from a dictionary in Python. It provides a safer and more flexible alternative to using square bracket notation ([]).
+The primary purpose of the get() method is to retrieve the value associated with a specified key in a dictionary. However, unlike the square bracket notation, get() allows you to handle cases where the key might not exist in the dictionary without raising a KeyError.
+
+# items() Method
+The items() method in Python dictionaries is used to retrieve a view object that displays a list of a dictionary's key-value tuple pairs. This view object is dynamic, meaning that if the dictionary changes, the view object will reflect those changes.
+The primary purpose of items() is to provide an efficient way to iterate over both the keys and their corresponding values in a dictionary simultaneously. This is particularly useful when you need to perform operations that involve both the key and the value of each item in the dictionary.
