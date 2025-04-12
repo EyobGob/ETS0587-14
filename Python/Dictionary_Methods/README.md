@@ -21,3 +21,9 @@ The primary purpose of the get() method is to retrieve the value associated with
 # items() Method
 The items() method in Python dictionaries is used to retrieve a view object that displays a list of a dictionary's key-value tuple pairs. This view object is dynamic, meaning that if the dictionary changes, the view object will reflect those changes.
 The primary purpose of items() is to provide an efficient way to iterate over both the keys and their corresponding values in a dictionary simultaneously. This is particularly useful when you need to perform operations that involve both the key and the value of each item in the dictionary.
+
+# keys() Method
+The keys() method in Python is a built-in function that returns a view object displaying a list of all the keys in a dictionary. This view object dynamically reflects any changes made to the dictionary. It's important to note that in Python 3.7 and later, this view object maintains the insertion order of the keys.
+
+# pop() Method
+The pop() method in Python removes and returns the value associated with a specified key from a dictionary. If the key is not found, it raises a KeyError 1  unless a default value is provided as a second argument. In that case, if the key is not found, the default value is returned, and the dictionary remains unchanged.
