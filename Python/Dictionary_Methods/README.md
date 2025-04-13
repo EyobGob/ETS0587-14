@@ -27,3 +27,16 @@ The keys() method in Python is a built-in function that returns a view object di
 
 # pop() Method
 The pop() method in Python removes and returns the value associated with a specified key from a dictionary. If the key is not found, it raises a KeyError 1  unless a default value is provided as a second argument. In that case, if the key is not found, the default value is returned, and the dictionary remains unchanged.
+
+# popitem() Method
+Imagine you have a box of random things (a dictionary!). The popitem() method is like reaching into the box without looking and grabbing whatever you happen to touch.
+
+In Python, when we call popitem() on a dictionary, it does two things:
+i. Removes a key-value pair: It picks an arbitrary (meaning you can't predict which one) key-value pair from the dictionary and takes it out.
+ii. Returns the removed pair: It gives you back the key and the value it just removed as a tuple (like a little package of two things).
+
+# setdefault()
+The setdefault() dictionary method in Python lets us to:
+i. Check if a key exists: we give it a key. If that key is already in our dictionary, it just returns the corresponding value that's already there – like looking up something in our notebook and reading what we've already written.
+
+ii. Add a key with a default value if it doesn't exist: If the key you provide is not in the dictionary, it will add that key to the dictionary along with a value that we also provide (the "default" value). It then returns this new value – like adding a new entry to our notebook with a specific initial piece of information.
