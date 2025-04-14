@@ -40,3 +40,14 @@ The setdefault() dictionary method in Python lets us to:
 i. Check if a key exists: we give it a key. If that key is already in our dictionary, it just returns the corresponding value that's already there – like looking up something in our notebook and reading what we've already written.
 
 ii. Add a key with a default value if it doesn't exist: If the key you provide is not in the dictionary, it will add that key to the dictionary along with a value that we also provide (the "default" value). It then returns this new value – like adding a new entry to our notebook with a specific initial piece of information.
+
+# update() Method
+In essence, the update() method allows us to merge the contents of one dictionary into another. Think of it as a way to efficiently add new key-value pairs or modify existing ones in our target dictionary.
+
+When we call update() on a dictionary (let's call it dict1), and provide another dictionary (let's call it dict2) as an argument, Python does the following:
+i. Adds new key-value pairs: If a key in dict2 does not exist in dict1, that key-value pair from dict2 is added to dict1.
+ii. Updates existing values: If a key in dict2 does already exist in dict1, the value associated with that key in dict1 is overwritten with the value from dict2.
+
+# values() Method
+The values() method is a straightforward way to retrieve all the values present in a dictionary. It returns a special view object that displays a list of all the values in the dictionary.
+When you call .values() on a dictionary, it doesn't give you a static list. Instead, it provides a dynamic view object. This view object reflects any changes made to the original dictionary. So, if you add, remove, or modify key-value pairs in the dictionary after calling values(), the view object will automatically update to reflect those changes.
