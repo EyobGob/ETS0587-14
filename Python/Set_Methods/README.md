@@ -11,3 +11,27 @@ The update() method in Python is used to add multiple elements to a set from an 
 
 # remove() Method
 The remove() method in Python attempts to remove a specified element from a set. If the element is found within the set, it is removed. However, if the element is not present in the set, the remove() method will raise a KeyError, halting the program if not handled with error handling mechanisms (like a try-except block).
+
+# discard()
+The discard() method takes one argument, which is the element you want to remove from the set. If the specified element exists within the set, discard() will remove it. Crucially, if the element is not found in the set, discard() does nothing and does not raise an error.
+
+Takes one argument: The element to be removed.
+Removes if present: If the element exists in the set, it is removed.
+No error if absent: If the element does not exist in the set, the set remains unchanged, and no KeyError or any other exception is raised.
+Modifies the set in-place: The discard() method directly alters the original set. It does not return a new set.
+
+# pop()
+The pop() method, when called on a set, removes and returns one element from the set. Because sets are inherently unordered collections, there's no specific "first" or "last" element. Therefore, the element that is popped is arbitrary; you cannot predict which element will be removed.
+
+No arguments: The pop() method does not take any arguments.
+Removes and returns: It modifies the set by removing an element and also returns the element that was removed.
+Arbitrary element: Due to the unordered nature of sets, the element removed is not based on index or any specific order. It's effectively a random element from the set.
+Raises KeyError if empty: If you call pop() on an empty set, it will raise a KeyError because there are no elements to remove and return.
+
+# union()
+The union() method takes one or more iterable objects as arguments. It returns a new set that contains all the unique elements present in the original set and in all the iterable objects passed as arguments. Duplicate elements are automatically eliminated in the resulting set.
+
+Takes one or more arguments: These arguments must be iterable objects (e.g., sets, lists, tuples, strings).
+Returns a new set: The union() method does not modify the original set. It creates and returns a brand new set containing the combined unique elements.
+Combines elements: It includes all elements from the original set and all elements from the iterable(s) passed as arguments.
+Ensures uniqueness: Duplicate elements, even if they appear multiple times across the original set and the iterables, will only appear once in the resulting set.
