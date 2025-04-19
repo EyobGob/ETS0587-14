@@ -35,3 +35,16 @@ Takes one or more arguments: These arguments must be iterable objects (e.g., set
 Returns a new set: The union() method does not modify the original set. It creates and returns a brand new set containing the combined unique elements.
 Combines elements: It includes all elements from the original set and all elements from the iterable(s) passed as arguments.
 Ensures uniqueness: Duplicate elements, even if they appear multiple times across the original set and the iterables, will only appear once in the resulting set.
+
+# intersection()
+The intersection() method returns a new set containing only the elements that are present in all the sets you call it on. It doesn't modify the original sets.
+You can call intersection() on one set and pass one or more other sets as arguments. Python will then compare all these sets and identify the elements that exist in every single one.
+
+
+# difference()
+The difference() method returns a new set containing all the elements from the set you call it on that are not present in the other set(s) you provide as arguments. Like intersection(), it doesn't alter the original sets.
+You call difference() on one set, and you can pass one or more other sets as arguments. Python will then compare the first set with all the subsequent sets and identify the elements that are exclusive to the first set.
+
+# symmetric_difference()
+The symmetric_difference() method returns a new set containing all the elements that are in exactly one of the sets being compared. Elements that are present in both sets are excluded from the resulting set. The original sets remain unchanged.
+You call symmetric_difference() on one set and pass another set as an argument. Python will then identify the elements that appear in the first set but not the second, and the elements that appear in the second set but not the first. These unique elements from both sets are combined into a new set.
