@@ -48,3 +48,10 @@ You call difference() on one set, and you can pass one or more other sets as arg
 # symmetric_difference()
 The symmetric_difference() method returns a new set containing all the elements that are in exactly one of the sets being compared. Elements that are present in both sets are excluded from the resulting set. The original sets remain unchanged.
 You call symmetric_difference() on one set and pass another set as an argument. Python will then identify the elements that appear in the first set but not the second, and the elements that appear in the second set but not the first. These unique elements from both sets are combined into a new set.
+
+# issubset() method
+The issubset() method is a built-in function specifically designed for set objects. It provides a clean and readable way to perform the subset check without needing to iterate through the elements manually.
+
+# issuperset() method
+It is a method for set objects that efficiently determines if one set contains all the elements of another set, returning a boolean value. It's the logical counterpart to issubset() and is useful in scenarios where you need to verify the presence of all required elements.
+
