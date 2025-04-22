@@ -55,3 +55,10 @@ The issubset() method is a built-in function specifically designed for set objec
 # issuperset() method
 It is a method for set objects that efficiently determines if one set contains all the elements of another set, returning a boolean value. It's the logical counterpart to issubset() and is useful in scenarios where you need to verify the presence of all required elements.
 
+# isdisjoint()
+if you have two sets, let's call them set1 and set2, set1.isdisjoint(set2) will return True if there's absolutely no overlap between them – meaning they share no common elements. If they do have one or more elements in common, it'll return False.
+imagine you have two groups of friends. isdisjoint() tells you if there's anyone who is a friend in both groups. If the answer is no (they are disjoint), then isdisjoint() is True. If there's even one person in both groups, then they are not disjoint, and isdisjoint() is False.
+
+# clear()
+It's a very direct and simple operation: it removes all elements from a set, effectively making it an empty set.
+Think of it like emptying a physical container. If your set is like a box filled with items, calling clear() is like reaching in and taking everything out, leaving you with an empty box.
